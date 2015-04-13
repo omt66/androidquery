@@ -87,8 +87,6 @@ public class IntentListActivity extends ListActivity {
 	
 	
 	private int[] getResList(){
-		
-		
 		if("async".equals(type)){
 			return new int[]{R.array.async_names, R.array.async_values};
 		}else if("image".equals(type)){
@@ -104,8 +102,6 @@ public class IntentListActivity extends ListActivity {
 		}else{
 			return new int[]{R.array.top_names, R.array.top_values};
 		}
-		
-		
 	}
 	
 	private List<ActivityItem> list;
