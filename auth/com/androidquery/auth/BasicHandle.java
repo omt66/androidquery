@@ -73,6 +73,4 @@ public class BasicHandle extends AccountHandle{
 		conn.setRequestProperty("Authorization", auth);
 		
 	}
-	
-
 }
